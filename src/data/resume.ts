@@ -69,7 +69,8 @@ export const resume: Resume = {
     email: "ajbocar@gmail.com",
     social: [
       { text: "LinkedIn", url: "https://www.linkedin.com/in/abocar/" },
-      { text: "Portfolio", url: "https://ajbocar.dpdns.org/" }
+      { text: "Portfolio", url: "https://ajbocar.dpdns.org/" },
+      { text: "GitHub", url: "https://github.com/ajbocar"}
     ]
   },
   profile: "Full Stack Web / Mobile Developer with strong analysis and debugging skills. Particularly interested in developing web applications using PHP, MySQL, HTML, CSS, JavaScript (ReactJS, Angular, VueJS) and mobile application development (iOS, Android, React Native, Cordova).",
@@ -182,18 +183,30 @@ export const resume: Resume = {
         details: "October 2006 passer (FE01-0175)",
         links: [
           { text: "View Passers", url: "http://www.philnits.org/passers201505.html#oct06" },
-          { text: "About PhilNITS", url: "http://www.philnits.org/about.html" }
+          { text: "About PhilNITS", url: "http://www.philnits.org/about.html" },
+          { text: "View Certificate", url: "https://drive.google.com/file/d/1dc2SgRACU6k89gaYmUI0Edf3ttx1WAit/view?usp=sharing" }
         ]
       },
       {
-        name: "JLPT",
-        details: "Level 3 (Dec 2009) · Level 4 (Dec 2006)"
+        name: "JLPT Level 3",
+        details: "Dec 2009",
+        links: [
+          { text: "View Certificate", url: "https://drive.google.com/file/d/1hptwoMRg-lftGugjbJSL7pVqaWyl0BUA/view?usp=sharing" }
+        ]
+      },
+      {
+        name: "JLPT Level 4",
+        details: "Dec 2006",
+        links: [
+          { text: "View Certificate", url: "https://drive.google.com/file/d/1UtD40ESzma_lCmWFJ3tDpbDA9H8dYTiK/view?usp=sharing" }
+        ]
       },
       {
         name: "Zend Certified Engineer (PHP 5.3)",
         details: "",
         links: [
-          { text: "View Certificate", url: "https://www.zend-zce.com/en/yellow-pages/ZEND015476" }
+          { text: "Yellow Pages", url: "https://www.zend-zce.com/en/yellow-pages/ZEND015476" },
+          { text: "View Certificate", url: "https://drive.google.com/file/d/1qGh1IT4l1A6FYh-Jq_DOtfSLY6fDNIF0/view?usp=sharing" }
         ]
       }
     ],
