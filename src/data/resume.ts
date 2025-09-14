@@ -208,6 +208,9 @@ export const resume: Resume = {
       name: "freshOps",
       company: "3 Dot Digital",
       period: "Apr 2025 – May 2025",
+      links: [
+        { text: "Website", url: "https://www.getfreshops.com/" }
+      ],
       description: "Workforce-management platform for commercial cleaning companies (AU).",
       details: [
         "Optimized MySQL shift processing to reduce DB costs.",
@@ -220,6 +223,10 @@ export const resume: Resume = {
       name: "Schoolzine / SchooLinks",
       company: "3 Dot Digital",
       period: "Apr 2025 – May 2025",
+      links: [
+        { text: "Schoolzine", url: "https://www.schoolzine.com/" },
+        { text: "SchooLinks", url: "https://www.school-links.org.nz/" }
+      ],
       description: "Parent-engagement and school communications platforms.",
       details: [
         "Resolved support tickets; optimized databases by moving high-use tables to a high-capacity DB."
