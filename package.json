@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "tsc -b && vite build",
-    "deploy": "gh-pages -d dist -b master"
+    "deploy": "gh-pages -d dist -b master -r https://github.com/ajbocar/ajbocar.github.io.git"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
