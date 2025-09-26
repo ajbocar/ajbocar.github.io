@@ -86,9 +86,21 @@ export const resume: Resume = {
   ],
   experience: [
     {
+      title: "Fullstack Developer",
+      company: "IBM (JTB), Quezon City",
+      period: "Oct 2025 – Present",
+      highlights: [
+        "TBD",
+      ],
+      tech: {
+        label: "Technologies",
+        stack: "ReactJS, Material UI, Docker, Portainer, AWS (CloudWatch, EC2, EBS, S3, RDS), PHP 7/8, MySQL, JIRA, Git, Bitbucket, GitHub Copilot, Grafana, Agentic AI Coding"
+      }
+    },
+    {
       title: "PHP AWS Developer",
       company: "3 Dot Digital, Brisbane (Remote)",
-      period: "Apr 2025 – Present",
+      period: "Apr 2025 – Sep 2025",
       highlights: [
         "Replaced a per-second, 9-day cron scan with a trigger-based change-capture pipeline (AFTER UPDATE trigger → queue → batch stored procedure) that processed only modified shifts in near real time, eliminating full-table scans and cutting DB load while preserving UX; added a session-variable guard to prevent recursive trigger execution.",
         "Supported a client's school CMS/CRM system by resolving support tickets and optimizing the database by moving frequently used tables to a high-capacity DB.",
